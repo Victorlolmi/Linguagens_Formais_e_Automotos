@@ -79,6 +79,9 @@ public class Mavenproject1 {
             } else {
                 break; // Se a letra não for 'a' ou 'b', sai do loop
             }
+            
+            if(estado==-1)
+                break;
         }
         // verifica se o estado final esta no vetor de estados finais
         boolean aceita = false;
